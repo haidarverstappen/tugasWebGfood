@@ -231,22 +231,21 @@
   
         <div class= "col-10 col-md-6">
           <form action ="kirim.php" method="post">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
-            <input type="text" class="form-control" name="nama" id="exampleFormControlInput1" placeholder="Masukkan Nama">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="Masukkan Email">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Catatan</label>
-            <textarea class="form-control" name="saran" id="exampleFormControlTextarea1" rows="3"></textarea>
-          <button class="btn button" type="submit"> <i class="fas fa-envelope"></i>Kirim Saran</button>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" name="nama" id="exampleFormControlInput1" placeholder="Masukkan Nama">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="Masukkan Email">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Catatan</label>
+              <textarea class="form-control" name="saran" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <button class="btn button" type="submit"> <i class="fas fa-envelope"></i>Kirim Saran</button>
+            </div>
           </form>
-          </div>
-        </div>  
-        
+        </div> 
         <div class= "col-10 col-md-4">
           <h2 class="mb-3">Alamat</h2>
           <p><i class="fas fa-map-pin"></i> Perum Taman Walet</p>
